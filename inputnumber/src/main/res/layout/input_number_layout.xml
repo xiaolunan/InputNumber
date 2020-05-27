@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/viewPackage"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context=".InputNumberView">
+
+    <Button
+        android:id="@+id/LessBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/less_btn_click"
+        android:text="@string/less_btn" />
+
+    <EditText
+        android:id="@+id/edit_input"
+        android:background="@drawable/edit_bg"
+        android:focusable="false"
+        android:layout_width="50dp"
+        android:gravity="center"
+        android:layout_height="match_parent"
+        android:text="0" />
+
+    <Button
+        android:id="@+id/plusBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/plus_btn_click"
+        android:text="@string/plus_btn" />
+
+</LinearLayout>
