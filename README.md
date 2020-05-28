@@ -21,3 +21,26 @@
     </declare-styleable>
 </resources>
 ```
+### 使用方法
+#### 添加依赖
+##### build.gradle
+```
+maven { url 'https://jitpack.io' }
+```
+##### add的build.gradle
+```
+implementation 'com.github.xiaolunan:InputNumber:1.1'
+```
+##### 布局中引用
+```
+<com.rcl.lib.inputnumber.InputNumberView
+    xmlns:rcl="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    rcl:btnDisable="false"
+    rcl:defaultNumber="5"
+    rcl:numberMax="15"
+    rcl:numberMin="-5"
+    rcl:step="2" />
+```
+
