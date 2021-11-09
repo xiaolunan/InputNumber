@@ -27,7 +27,7 @@
 ```
 maven { url 'https://jitpack.io' }
 ```
-##### add的build.gradle
+##### app的build.gradle
 ```
 implementation 'com.github.xiaolunan:InputNumber:1.1'
 ```
